@@ -1,0 +1,26 @@
+#title{
+    text-align: center;
+    margin-bottom:20px ;
+}
+
+
+.app {
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar select,
+  .navbar button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color:black;
+  }

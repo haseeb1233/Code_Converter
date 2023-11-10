@@ -1,0 +1,56 @@
+/* CodeConverter.css */
+#logindetails{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.code-converter {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .code-textarea {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .code-textarea textarea {
+    width: 100%;
+    height: 89%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none; /* Prevent textarea resizing */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+  .editor-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none; /* Prevent textarea resizing */
+    
+  }
+  
+  /* Additional styling for headers */
+  .code-textarea h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  #pushcodebtn{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #pushcodebtn button{
+    background-color: white;
+    color: black;
+    height: 25px;
+    margin-top: 25px;
+  }
+  
+  

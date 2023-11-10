@@ -1,0 +1,47 @@
+#mainpush{
+    z-index: 1;
+    position: fixed;
+    top: 28%;
+    left: 68%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: auto;
+    margin-top:20px ;
+}
+
+#container{
+    width:100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+#container p{
+    width: 10%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+#form select {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#form input {
+    width: 68%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#submitinpt{
+    background-color: black;
+    color: white;
+}
